@@ -9,10 +9,13 @@
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- CSS Externo -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <!-- CSS Font -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/favicons/apple-touch-icon-152x152.png">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicons/favicon-32x32.png">
 
     <title>Weslley Rocha</title>
 
@@ -35,13 +38,13 @@
         <div class="collapse navbar-collapse ml-3" id="navbarDropdownMenuPrincipal">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-light" href="#">Home <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link text-light" href="index.php">Home <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Sobre</a>
+                    <a class="nav-link text-light" href="sobre.php">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Fale Conosco</a>
+                    <a class="nav-link text-light" href="faleconosco.php">Fale Conosco</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -50,10 +53,10 @@
                     <div class="col col-md-4">
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
 
-                            <a class="dropdown-item" href="#">O que é?</a>
-                            <a class="dropdown-item" href="#">Como participar?</a>
+                            <a class="dropdown-item disabled" href="#">O que é?</a>
+                            <a class="dropdown-item disabled" href="#">Como participar?</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Dúvidas Frequentes</a>
+                            <a class="dropdown-item disabled" href="#">Dúvidas Frequentes</a>
                         </div>
                     </div>
                 </li>
@@ -68,12 +71,12 @@
                                         id="navbarDropdownMenuSecundario" role="button" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">Developer</a>
                                     <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuSecundario"><a
-                                            class="dropdown-item" href="#">Em Teste</a></div>
+                                            class="dropdown-item disabled" href="#">Projeto 1</a></div>
                                 </li>
                             </div>
                             <div>
-                                <a href="https://github.com/WESLLEYROCHA87" target="_blank"><img class="img-fluid"
-                                        src="img/logo/GitHub-Mark-Light-32px.png" alt="" width="25"></a>
+                                <a href="#" target="_blank"><img class="img-fluid" src="img/logo/login.png"
+                                        alt="Acesso com senha" title="Área Restrita" width="40"></a>
                             </div>
                         </div>
                     </div>

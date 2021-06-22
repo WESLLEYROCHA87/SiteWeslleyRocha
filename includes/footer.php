@@ -39,7 +39,7 @@
                     <img class="img-fluid mx-auto d-block" src="img/perfil/weslleyrocha.png" style="width: 10rem;"
                         alt="imagem perfil" title="Foto Weslley Rocha">
                     <h3 class="text-center">Contato:</h3>
-                    <a href="https://api.whatsapp.com/send?phone=5519974207424" target="_blank">
+                    <a id="linkwhatsapp" href="https://api.whatsapp.com/send?phone=5519974207424" target="_blank">
                         <h4 class="text-center text-light mt-4"> (19) 97420-7424</h4>
                     </a>
                 </div>
@@ -53,10 +53,15 @@
                         width="250rem" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
-
         </div>
 
-
+        <div class="row">
+            <div class="col">
+                <p class="text-center text-light my-2">Desenvolvido por Weslley Rocha</a>&#174;
+                    <?php echo "2021 - " . date("Y", time()); ?>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 
