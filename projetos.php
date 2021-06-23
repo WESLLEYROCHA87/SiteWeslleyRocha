@@ -2,14 +2,14 @@
 
 <div class="container">
 
-    <div class="my-4">
+    <div class="my-5">
         <h1 class="text-center font-weight-light">Projetos Entregues</h1>
     </div>
     <div class="row">
 
 
         <div class="col-12 col-md-4 mx-auto d-block">
-            <div class="card shadow-lg mb-5 bg-white">
+            <div class="card shadow mb-5 bg-white grow">
                 <img class="card-img-top rounded-top" src="img/projetos/projeto1.jpg" alt="Imagem de capa do card">
                 <div class="card-body  bg-dark">
                     <h5 class="card-title text-center text-light">Projeto: Site</h5>

@@ -1,5 +1,5 @@
 <!-- Footer -->
-<div class="container-fluid shadow-lg mt-5  bg-dark">
+<div class="container-fluid shadow-lg mt-5 bg-dark">
     <div class="row">
         <div class="col-12">
             <img class="img-fluid mx-auto d-block my-3" src="img/logo/logo_WR.png" style="width: 10rem;"

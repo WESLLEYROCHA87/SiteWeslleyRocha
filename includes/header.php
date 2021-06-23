@@ -23,29 +23,24 @@
 
 <body>
 
-    <!-- Navegador -->
+    <!-- Redes Sociais -->
     <div class="container-fluid bg-dark">
         <div class="row">
             <div class="col-12 text-right">
-
                 <a href="https://github.com/WESLLEYROCHA87" target="_blank"> <img class="img-fluid mr-2 my-1"
                         style="width: 2rem;" src="img/logo/GitHub-Mark-Light-120px-plus.png" alt="Link de acesso GitHub"
                         title="GitHub"></a>
-
                 <a href="https://www.linkedin.com/in/weslley-rocha/" target="_blank"> <img class="img-fluid mr-2 my-1"
                         style="width: 2rem;" src="img/logo/linkedin.png" alt="Link de acesso linkedin"
                         title="Linkedin"></a>
-
-
                 <a href="https://www.instagram.com/mr.weslleyrocha/" target="_blank"> <img class="img-fluid mr-2 my-1"
                         style="width: 2rem;" src="img/logo/instagram.png" alt="link de acesso instagram"
                         title="Instagram"></a>
-
             </div>
         </div>
     </div>
 
-
+    <!-- Navegador -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow p-1 mb-5">
         <div class="row">
             <div class="col">

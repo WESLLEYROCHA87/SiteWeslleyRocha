@@ -3,12 +3,13 @@
 <div class="container">
 
 
-    <div class="my-4">
-        <h1 class="text-center font-weight-light">Sobre</h1>
+    <div class="mt-5">
+        <h1 class="text-center font-weight-light my-5">Sobre</h1>
         <p class="text-justify font-weight-light pPerson"> Este site tem como principal objetivo, demonstrar e colocar
             em
-            prática todo aprendizado e experiência adquirida enquanto cursava não só a Faculdade em Análise e
-            Desenvolvimento de Sistemas na UNIP entre 2019 à 2021 (Tecnólogo), mas também, cursos extra curriculares em
+            prática todo aprendizado e experiência adquirida enquanto cursava Análise e
+            Desenvolvimento de Sistemas na Faculdade UNIP entre 2019 à 2021 (Tecnólogo), mas também, cursos extra
+            curriculares em
             portais como Fundação Bradesco, Udemy entre outros.</p>
 
 
@@ -30,15 +31,14 @@
         <p class="text-justify font-weight-light pPerson"> Então, teremos muitas coisas a respeito de licitação, leis,
             decretos
             entre outros.</p>
-
     </div>
 
-    <div class="my-4">
+    <div class="my-5">
         <h1 class="text-center font-weight-light">Tecnologias utilizadas</h1>
     </div>
     <div class="row">
-        <div class="col-12 col-md-3 my-1 ">
-            <div class="card shadow-lg mb-5 bg-white">
+        <div class="col-12 col-md-3 my-1">
+            <div class=" shadow mb-5 bg-white grow">
                 <img class="card-img-top rounded-top" src="img/imgHome/bootstrap.jpg" alt="Imagem de capa do card">
                 <div class="card-body  bg-dark">
                     <h5 class="card-title text-center text-light">BOOTSTRAP</h5>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="col-12 col-md-3 my-1">
-            <div class="card shadow-lg mb-5 bg-white">
+            <div class=" shado mb-5 bg-white grow">
                 <img class="card-img-top rounded-top" src="img/imgHome/html.jpg" alt="Imagem de capa do card">
                 <div class="card-body  bg-dark">
                     <h5 class="card-title text-center text-light">HTML</h5>
@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-12 col-md-3 my-1">
-            <div class="card shadow-lg mb-5 bg-white">
+            <div class=" shadow mb-5 bg-white grow">
                 <img class="card-img-top rounded-top" src="img/imgHome/css.jpg" alt="Imagem de capa do card">
                 <div class="card-body  bg-dark">
                     <h5 class="card-title text-center text-light">CSS</h5>
@@ -67,7 +67,7 @@
         </div>
 
         <div class="col-12 col-md-3 my-1">
-            <div class="card shadow-lg mb-5 bg-white">
+            <div class=" shadow mb-5 bg-white grow">
                 <img class="card-img-top rounded-top" src="img/imgHome/php.jpg" alt="Imagem de capa do card">
                 <div class="card-body  bg-dark">
                     <h5 class="card-title text-center text-light">PHP</h5>
@@ -84,7 +84,7 @@
     </div>
     <div class="row">
         <div class="col-12 col-md-6 my-1 mx-auto d-block">
-            <div class="card shadow-lg mb-5 bg-white">
+            <div class=" shadow mb-5 bg-white grow">
                 <img class="card-img-top rounded-top" src="img/imgHome/mysql.jpg" alt="Imagem de capa do card">
                 <div class="card-body  bg-dark">
                     <h5 class="card-title text-center text-light">MYSQL</h5>

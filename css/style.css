@@ -1,4 +1,25 @@
+/* Página Index*/
+
+
+
 /* Página Sobre */
 .pPerson{
     font-size: 25px;
 }
+
+
+
+/* Demais Configurações*/
+/* Imagens */ 
+
+/* Index / Sobre / Projeto*/
+/* Imagens */
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+

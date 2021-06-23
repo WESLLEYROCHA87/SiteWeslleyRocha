@@ -2,12 +2,12 @@
 
 
 <div class="container">
-    <div class="my-4">
-        <h1 class="text-center font-weight-light">Licitação</h1>
+    <div class="my-5">
+        <h1 class="text-center font-weight-light sublinhado">Licitação</h1>
     </div>
     <div class="row">
-        <div class="col-12 col-md-6 my-1 ">
-            <div class="card shadow-lg mb-5 bg-white">
+        <div class="col-12 col-md-6 my-1">
+            <div class="card shadow mb-5 bg-white grow">
                 <img class="card-img-top rounded-top" src="img/imgHome/imgPE.png" alt="Imagem de capa do card">
                 <div class="card-body  bg-dark">
                     <h5 class="card-title text-center text-light">O que é Licitação?</h5>
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="col-12 col-md-6 my-1">
-            <div class="card shadow-lg mb-5 bg-white">
+            <div class="card shadow mb-5 bg-white grow">
                 <img class="card-img-top rounded-top" src="img/imgHome/imgPE2.png" alt="Imagem de capa do card">
                 <div class="card-body  bg-dark">
                     <h5 class="card-title text-center text-light">Qual o primeiro passo para participar de uma
@@ -40,9 +40,9 @@
     </div>
     <div class="row">
         <div class="col-12 col-md-4 my-1 ">
-            <div class="card shadow-lg mb-5 bg-white">
-                <img class="card-img-top rounded-top" src="img/imgHome/imgPE3.png" alt="Imagem de capa do card">
-                <div class="card-body  bg-dark">
+            <div class="card shadow mb-5 bg-white grow">
+                <img class="card-img-top rounded-top " src="img/imgHome/imgPE3.png" alt="Imagem de capa do card">
+                <div class="card-body  bg-dark ">
                     <h5 class="card-title text-center text-light">Nova Lei de Licitações</h5>
                     <p class="card-text text-justify text-light">A Nova Lei de Licitações e Contratos Administrativos
                         (Nº 14.133/2021) foi sancionada pelo presidente Jair Bolsonaro em 1º. de abril de 2021, com base
@@ -55,9 +55,9 @@
         </div>
 
         <div class="col-12 col-md-4 my-1">
-            <div class="card shadow-lg mb-5 bg-white">
-                <img class="card-img-top rounded-top" src="img/imgHome/imgPE4.png" alt="Imagem de capa do card">
-                <div class="card-body  bg-dark">
+            <div class="card shadow mb-5 bg-white grow">
+                <img class="card-img-top rounded-top " src="img/imgHome/imgPE4.png" alt="Imagem de capa do card">
+                <div class="card-body  bg-dark ">
                     <h5 class="card-title text-center text-light">Lei do Pregão</h5>
                     <p class="card-text text-justify text-light">O pregão é utilizado para efetuar a aquisição de
                         serviços e bens comuns de “qualquer que seja o valor estimado da contratação” em que as empresas
@@ -71,9 +71,9 @@
         </div>
 
         <div class="col-12 col-md-4 my-1">
-            <div class="card shadow-lg mb-5 bg-white">
-                <img class="card-img-top rounded-top" src="img/imgHome/imgPE5.png" alt="Imagem de capa do card">
-                <div class="card-body  bg-dark">
+            <div class="card shadow mb-5 bg-white grow">
+                <img class="card-img-top rounded-top " src="img/imgHome/imgPE5.png" alt="Imagem de capa do card">
+                <div class="card-body  bg-dark ">
                     <h5 class="card-title text-center text-light">Modo de disputa</h5>
                     <p class="card-text text-justify text-light">É a forma para participar da etapa de lances
                         eletrônicos e enviar a sua proposta. Então, é previsto que esses lances possam ser feitos de
