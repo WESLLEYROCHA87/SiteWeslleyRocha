@@ -14,7 +14,7 @@
                 <div class="card-body  bg-dark">
                     <h5 class="card-title text-center text-light">Projeto: Site</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Empresa: Coziind</h6>
-                    <p class="card-text text-justify text-light"> A proposta foi a criação de um site para apresntação
+                    <p class="card-text text-justify text-light"> A proposta foi a criação de um site para apresentação
                         dos serviços prestados pela empresa. </p>
                     <a href="http://www.coziind.com.br/index.php" target="d-blank"
                         class="btn btn-primary text-light">Acesse o site</a>
