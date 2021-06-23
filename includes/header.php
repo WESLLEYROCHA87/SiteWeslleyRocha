@@ -9,7 +9,7 @@
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- CSS Externo -->
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- CSS Font -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/favicons/apple-touch-icon-152x152.png">
@@ -24,6 +24,28 @@
 <body>
 
     <!-- Navegador -->
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-12 text-right">
+
+                <a href="https://github.com/WESLLEYROCHA87" target="_blank"> <img class="img-fluid mr-2 my-1"
+                        style="width: 2rem;" src="img/logo/GitHub-Mark-Light-120px-plus.png" alt="Link de acesso GitHub"
+                        title="GitHub"></a>
+
+                <a href="https://www.linkedin.com/in/weslley-rocha/" target="_blank"> <img class="img-fluid mr-2 my-1"
+                        style="width: 2rem;" src="img/logo/linkedin.png" alt="Link de acesso linkedin"
+                        title="Linkedin"></a>
+
+
+                <a href="https://www.instagram.com/mr.weslleyrocha/" target="_blank"> <img class="img-fluid mr-2 my-1"
+                        style="width: 2rem;" src="img/logo/instagram.png" alt="link de acesso instagram"
+                        title="Instagram"></a>
+
+            </div>
+        </div>
+    </div>
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow p-1 mb-5">
         <div class="row">
             <div class="col">
@@ -44,9 +66,8 @@
                     <a class="nav-link text-light" href="sobre.php">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="faleconosco.php">Fale Conosco</a>
+                    <a class="nav-link text-light" href="projetos.php">Projetos</a>
                 </li>
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown1" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Licitação</a>
@@ -60,27 +81,13 @@
                         </div>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="faleconosco.php">Fale Conosco</a>
+                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <div class="row">
-                    <div class="col">
-                        <div class="collapse navbar-collapse float-right mr-5" id="navSecundaria">
-                            <div class="navbar-nav">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle text-light mr-3" href="#"
-                                        id="navbarDropdownMenuSecundario" role="button" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">Developer</a>
-                                    <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuSecundario"><a
-                                            class="dropdown-item disabled" href="#">Projeto 1</a></div>
-                                </li>
-                            </div>
-                            <div>
-                                <a href="#" target="_blank"><img class="img-fluid" src="img/logo/login.png"
-                                        alt="Acesso com senha" title="Área Restrita" width="40"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
+            <div>
+                <a href="#" target="_blank"><img class="img-fluid" src="img/logo/login.png" alt="Acesso com senha"
+                        title="Área Restrita" width="40"></a>
+            </div>
         </div>
     </nav>

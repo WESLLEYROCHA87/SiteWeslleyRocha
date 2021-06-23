@@ -1,76 +1,90 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
 
+
 <div class="container">
-
-    <div class="row justify-content-center my-2">
-        <div class="col-12 col-sm-6 my-2 order-2">
-            <div class="">
-                <img class="img-fluid" src="img/imgHome/img1.png" alt="">
+    <div class="my-4">
+        <h1 class="text-center font-weight-light">Licitação</h1>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6 my-1 ">
+            <div class="card shadow-lg mb-5 bg-white">
+                <img class="card-img-top rounded-top" src="img/imgHome/imgPE.png" alt="Imagem de capa do card">
+                <div class="card-body  bg-dark">
+                    <h5 class="card-title text-center text-light">O que é Licitação?</h5>
+                    <p class="card-text text-justify text-light"> Licitação é o procedimento realizado pela
+                        Administração Pública que visa à contratação de um serviço ou à aquisição de um determinado bem,
+                        necessário à atividade desenvolvida pelo Poder Estatal, pela oferta mais vantajosa. </p>
+                    <a href="#" target="d-blank" class="btn btn-primary text-light">Saiba mais</a>
+                </div>
             </div>
         </div>
-
-        <div class="col-12 col-sm-6 my-2 order-1">
-
-            <h1 class="text-center font-weight-light">Objetivo:</h1>
-            <p class="text-justify"> Este site tem como principal objetivo, demonstrar e colocar em prática todo
-                aprendizado e experiência adquirida enquanto cursava não só a Faculdade em Análise e Desenvolvimento de
-                Sistemas na UNIP entre 2019 à 2021 (Tecnólogo), mas também, cursos extra curriculares em portais como
-                Fundação Bradesco, Udemy entre outros. </p>
-
-            <p class="text-justify"> O foco não será a criação de sites ou ênfase em design gráfico, então não iremos
-                entrar muito a fundo neste
-                assunto.
-                O objetivo é na criação e desenvolvimento de sistemas. </p>
-        </div>
-    </div>
-
-    <div class="row my-2">
-        <div class="col-12 col-sm-6 my-2 order-3">
-            <h1 class="text-center font-weight-light">Licitação Pública:</h1>
-            <p class="text-justify"> Além da área de tecnologia, neste portal também será apresentado e servirá como
-                fonte de estudo e aprendizado para quem tem dúvida, desconhece ou queira aprender sobre licitação
-                pública. </p>
-
-            <p class="text-justify"> O objetivo aqui será desenvolver um sistema que atenda empresários que queiram ter
-                um maior controle e facilidade ao efetuar vendas para o Governo. </p>
-
-            <p class="text-justify"> Então, teremos muitas coisas a respeito de licitação, leis, decretos entre outros.
-            </p>
-
-        </div>
-
-        <div class="col-12 col-sm-6 my-2 order-4">
-            <div class="">
-                <img class="img-fluid" src="img/imgHome/img2.png" alt="">
+        <div class="col-12 col-md-6 my-1">
+            <div class="card shadow-lg mb-5 bg-white">
+                <img class="card-img-top rounded-top" src="img/imgHome/imgPE2.png" alt="Imagem de capa do card">
+                <div class="card-body  bg-dark">
+                    <h5 class="card-title text-center text-light">Qual o primeiro passo para participar de uma
+                        licitação?
+                    </h5>
+                    <p class="card-text text-justify text-light">O primeiro passo para participar de uma licitação é
+                        acessar o edital. Quando esse documento é publicado, o processo licitatório está oficialmente
+                        aberto.</p>
+                    <a href="#" target="d-blank" class="btn btn-primary text-light">Saiba mais</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="row my-2">
-        <div class="col-12 col-sm-6 my-2 order-5">
-            <h1 class="text-center font-weight-light">Linguagens aplicada:</h1>
-            <p class="text-center">A princípio iremos trabalhar com as seguintes linguagens: Bootstrap, HTML, CSS, PHP e
-                Mysql. </p>
+
+    <div class="my-4">
+        <h1 class="text-center font-weight-light">Destaques</h1>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-4 my-1 ">
+            <div class="card shadow-lg mb-5 bg-white">
+                <img class="card-img-top rounded-top" src="img/imgHome/imgPE3.png" alt="Imagem de capa do card">
+                <div class="card-body  bg-dark">
+                    <h5 class="card-title text-center text-light">Nova Lei de Licitações</h5>
+                    <p class="card-text text-justify text-light">A Nova Lei de Licitações e Contratos Administrativos
+                        (Nº 14.133/2021) foi sancionada pelo presidente Jair Bolsonaro em 1º. de abril de 2021, com base
+                        em projeto aprovado pelo Senado em dezembro de 2020, após a matéria tramitar por sete anos no
+                        Congresso.</p>
+                    <a href="http://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2021/Lei/L14133.htm" target="d-blank"
+                        class="btn btn-primary text-light">Acesse a nova Lei</a>
+                </div>
+            </div>
         </div>
 
-        <div class="col-12 col-sm-6 my-2 order-6">
-            <div class="">
-                <img class="img-fluid" src="img/imgHome/img3.png" alt="">
+        <div class="col-12 col-md-4 my-1">
+            <div class="card shadow-lg mb-5 bg-white">
+                <img class="card-img-top rounded-top" src="img/imgHome/imgPE4.png" alt="Imagem de capa do card">
+                <div class="card-body  bg-dark">
+                    <h5 class="card-title text-center text-light">Lei do Pregão</h5>
+                    <p class="card-text text-justify text-light">O pregão é utilizado para efetuar a aquisição de
+                        serviços e bens comuns de “qualquer que seja o valor estimado da contratação” em que as empresas
+                        dão seus lances em sessão pública, presencial ou eletrônica e é regido pela, lei LEI No 10.520,
+                        DE 17 DE JULHO DE 2002..</p>
+                    <a href="http://www.planalto.gov.br/ccivil_03/leis/2002/l10520.htm" target="d-blank"
+                        class="btn btn-primary text-light">Acesse a Lei</a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 my-1">
+            <div class="card shadow-lg mb-5 bg-white">
+                <img class="card-img-top rounded-top" src="img/imgHome/imgPE5.png" alt="Imagem de capa do card">
+                <div class="card-body  bg-dark">
+                    <h5 class="card-title text-center text-light">Modo de disputa</h5>
+                    <p class="card-text text-justify text-light">É a forma para participar da etapa de lances
+                        eletrônicos e enviar a sua proposta. Então, é previsto que esses lances possam ser feitos de
+                        dois modos de disputa: aberto ou fechado. Com o decreto nº 10.024, criou-se uma nova
+                        regulamentação para a modalidade pregão eletrônico..</p>
+                    <a href="#" target="d-blank" class="btn btn-primary text-light">Saiba mais</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="row my-5">
-        <div class="col">
-            <h1 class="text-center text-muted font-weight-light font-italic">"Enquanto uns pensam sempre estarem certos,
-                eu prefiro
-                estar errado, assim posso aprender e evoluir."</h1>
-            <p class="text-center text-muted font-weight-lightt font-italic">Guilherme Trentini</p>
-
-
-
-        </div>
-    </div>
 
 </div>
 
