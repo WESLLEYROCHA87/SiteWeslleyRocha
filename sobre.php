@@ -7,26 +7,21 @@
         <h1 class="text-center font-weight-light my-5">Sobre</h1>
         <p class="text-justify font-weight-light pPerson"> Este site tem como principal objetivo, demonstrar e colocar
             em
-            prática todo aprendizado e experiência adquirida enquanto cursava Análise e
-            Desenvolvimento de Sistemas na Faculdade UNIP entre 2019 à 2021 (Tecnólogo), mas também, cursos extra
-            curriculares em
-            portais como Fundação Bradesco, Udemy entre outros.</p>
-
+            prática todo aprendizado e experiência adquirida no curso de Análise e
+            Desenvolvimento de Sistemas na Faculdade UNIP entre 2019 à 2021 (Tecnólogo) e também em cursos extras
+            curriculares realizados em portais como Fundação Bradesco, Udemy entre outros.</p>
 
         <p class="text-justify font-weight-light pPerson"> O foco não será a criação de sites ou ênfase em design
-            gráfico, então
-            não iremos entrar muito a fundo neste assunto. O objetivo é na criação e desenvolvimento de sistemas.</p>
+            gráfico, então não iremos entrar muito a fundo neste assunto. O objetivo é na criação e desenvolvimento de sistemas.</p>
 
         <p class="text-justify font-weight-light pPerson"> Além da área de tecnologia, neste portal também será
             apresentado e
             servirá como fonte de estudo e aprendizado para quem tem dúvida, desconhece ou queira aprender sobre
             licitação pública.</p>
 
-
         <p class="text-justify font-weight-light pPerson"> O objetivo aqui será desenvolver um sistema que atenda
             empresários
             que queiram ter um maior controle e facilidade ao efetuar vendas para o Governo.</p>
-
 
         <p class="text-justify font-weight-light pPerson"> Então, teremos muitas coisas a respeito de licitação, leis,
             decretos
