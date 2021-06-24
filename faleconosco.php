@@ -54,7 +54,13 @@
     <!-- Mensagem de envio ou erro de mensagem -->
     <?php if ($_SERVER['REQUEST_METHOD'] == 'POST') { ?>
     <div class="alert alert-danger alert-dismissible fade show my-5" role="alert">
-        <?php echo 'Mensagem <strong>não pode ser enviada</strong>, favor entrar em contato através do Whatsapp!' ?>
+        <?php echo 'Mensagem <strong>não pode ser enviada</strong>, favor entrar em contato através do' ?>
+
+
+        <a href="https://api.whatsapp.com/send?phone=5519974207424" target="_blank">
+            <strong class="text-success">Whatsapp!</strong></a>
+
+
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
