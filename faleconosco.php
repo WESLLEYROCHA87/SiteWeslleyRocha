@@ -44,7 +44,7 @@
         </div>
     </form>
 
-    <h1 class="text-center font-weight-light">Caso prefira pode me chamar pelo Whatsapp:</h1>
+    <h1 class="text-center font-weight-light">Estamos no Whatsapp:</h1>
     <div class="row">
         <div class="col-12">
             <a href="https://api.whatsapp.com/send?phone=5519974207424" target="_blank">
