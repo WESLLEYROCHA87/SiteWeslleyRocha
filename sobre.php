@@ -5,6 +5,17 @@
     <div class="mt-5">
         <h1 class="text-center font-weight-light my-5">Sobre</h1>
 
+        <div class="my-5">
+            <div class="row">
+                <div class="col">
+                    <img class="img-fluid mx-auto d-block rounded-circle shadow-lg grow" style="width: 20rem;"
+                        src="img/perfil/perfilWeslleyRocha.jpg" title="Foto Perfil">
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-3">
+
         <p class="text-justify font-weight-light pPerson">Meu nome é Weslley Rocha, sou formado na faculdade UNIP no
             curso de Tecnólogo em Análise e Desenvolvimento de Sistemas, cursei entre os anos de 2019 a 2021. </p>
         <p class="text-justify font-weight-light pPerson">Decidi criar este site para servir de portfólio, aqui irei
@@ -32,6 +43,8 @@
             compartilhamos com os demais o que sabemos, coisas grandes acontecem.
         <p>
     </div>
+
+    <hr class="my-5">
 
     <!-- Conteudo: Tecnologias -->
     <div class="my-5">
