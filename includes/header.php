@@ -9,7 +9,7 @@
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- CSS Externo -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <!-- CSS Font -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/favicons/apple-touch-icon-152x152.png">
@@ -81,8 +81,10 @@
                 </li>
             </ul>
             <div>
-                <a href="#" target="_blank"><img class="img-fluid" src="img/logo/login.png" alt="Acesso com senha"
-                        title="Área Restrita" width="40"></a>
             </div>
+        </div>
+        <div class="mr-3">
+            <a href="#" target="_blank"><img class="img-fluid" src="img/logo/login.png" alt="Acesso com senha"
+                    title="Área Restrita" width="40"></a>
         </div>
     </nav>

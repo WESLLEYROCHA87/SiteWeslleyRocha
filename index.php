@@ -14,7 +14,6 @@
                     <p class="card-text text-justify text-light"> Licitação é o procedimento realizado pela
                         Administração Pública que visa à contratação de um serviço ou à aquisição de um determinado bem,
                         necessário à atividade desenvolvida pelo Poder Estatal, pela oferta mais vantajosa. </p>
-                    <a href="#" target="d-blank" class="btn btn-primary text-light">Saiba mais</a>
                 </div>
             </div>
         </div>
@@ -28,13 +27,13 @@
                     <p class="card-text text-justify text-light">O primeiro passo para participar de uma licitação é
                         acessar o edital. Quando esse documento é publicado, o processo licitatório está oficialmente
                         aberto.</p>
-                    <a href="#" target="d-blank" class="btn btn-primary text-light">Saiba mais</a>
+
                 </div>
             </div>
         </div>
     </div>
 
-
+    <!-- Conteudo: Destaques -->
     <div class="my-4">
         <h1 class="text-center font-weight-light">Destaques</h1>
     </div>
@@ -79,7 +78,36 @@
                         eletrônicos e enviar a sua proposta. Então, é previsto que esses lances possam ser feitos de
                         dois modos de disputa: aberto ou fechado. Com o decreto nº 10.024, criou-se uma nova
                         regulamentação para a modalidade pregão eletrônico..</p>
-                    <a href="#" target="d-blank" class="btn btn-primary text-light">Saiba mais</a>
+
+                    <!-- Botão Modal Modo de Disputa -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalMododeDisputa">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Modo de Disputa -->
+    <div class="modal fade" id="ModalMododeDisputa" tabindex="-1" role="dialog"
+        aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="TituloModalCentralizado">Modo de Disputa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="card-text text-justify text-dark">
+                        Modo de disputa aberto e fechado O modo de disputa aberto e fechado está
+                        regularizado no artigo 33, caput e em seus parágrafos primeiro ao sexto, do Decreto
+                        Lei 10.024/2019. Neste modo, os licitantes apresentam lances públicos e sucessivos,
+                        com lance final e fechado, conforme o critério de julgamento adotado no edital.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
@@ -87,6 +115,8 @@
 
 
 </div>
+
+
 
 
 

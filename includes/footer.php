@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-12">
             <img class="img-fluid mx-auto d-block my-3" src="img/logo/logo_WR.png" style="width: 10rem;"
-                alt="Logo Weslley Rocha">
+                title="Logo Weslley Rocha">
         </div>
     </div>
 
