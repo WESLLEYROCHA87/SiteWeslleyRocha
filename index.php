@@ -34,7 +34,7 @@
 
     <!-- Conteudo: Destaques -->
     <div class="my-4">
-        <h1 class="text-center font-weight-light">Destaques</h1>
+        <h1 class="font-weight-light">Destaques</h1>
     </div>
     <div class="row">
         <div class="col-12 col-md-4 my-1 ">
