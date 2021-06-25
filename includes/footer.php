@@ -22,14 +22,13 @@
 
         <div class="row">
             <div class="col">
-                <p class="text-center text-light my-2">Desenvolvido por Weslley Rocha</a>&#174;
+                <p class="text-center text-light my-2">Desenvolvido por Weslley Rocha </a> &#174;
                     <?php echo "2021 - " . date("Y", time()); ?>
                 </p>
             </div>
         </div>
     </div>
 </div>
-
 
 <!-- Início Botão Whatssap Site -->
 <script type="text/javascript">
@@ -54,9 +53,6 @@
 })();
 </script>
 <!-- Final Botão Whatssap Site -->
-
-
-
 
 
 <!-- Link Externo -->

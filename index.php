@@ -1,6 +1,5 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
 
-
 <div class="container">
     <div class="my-5">
         <h1 class="text-center font-weight-light sublinhado">Licitação</h1>
@@ -60,8 +59,8 @@
                     <h5 class="card-title text-center text-light">Lei do Pregão</h5>
                     <p class="card-text text-justify text-light">O pregão é utilizado para efetuar a aquisição de
                         serviços e bens comuns de “qualquer que seja o valor estimado da contratação” em que as empresas
-                        dão seus lances em sessão pública, presencial ou eletrônica e é regido pela, lei LEI No 10.520,
-                        DE 17 DE JULHO DE 2002..</p>
+                        dão seus lances em sessão pública, presencial ou eletrônica e é regido pela, LEI No 10.520,
+                        DE 17 DE JULHO DE 2002.</p>
                     <a href="http://www.planalto.gov.br/ccivil_03/leis/2002/l10520.htm" target="d-blank"
                         class="btn btn-primary text-light">Acesse a Lei</a>
 
@@ -121,12 +120,6 @@
             </div>
         </div>
     </div>
-
-
 </div>
-
-
-
-
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
