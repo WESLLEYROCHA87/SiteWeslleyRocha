@@ -94,17 +94,26 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="TituloModalCentralizado">Modo de Disputa</h5>
+                    <h5 class="modal-title" id="TituloModalCentralizado"><strong>Modo de disputa
+                            aberto e
+                            fechado.</strong></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <p class="card-text text-justify text-dark">
-                        Modo de disputa aberto e fechado O modo de disputa aberto e fechado está
-                        regularizado no artigo 33, caput e em seus parágrafos primeiro ao sexto, do Decreto
-                        Lei 10.024/2019. Neste modo, os licitantes apresentam lances públicos e sucessivos,
-                        com lance final e fechado, conforme o critério de julgamento adotado no edital.</p>
+                        O modo de disputa <strong>aberto</strong> e <strong>fechado</strong> está regularizado no
+                        <strong>artigo 33, caput e em seus parágrafos primeiro ao sexto</strong>, do <a
+                            href="https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2019/Decreto/D10024.htm"
+                            target="d_blank">Decreto Lei 10.024/2019</a>.
+                    </p>
+
+                    <p class="card-text text-justify text-dark">
+                        Neste modo, os licitantes apresentam lances públicos e sucessivos,
+                        com lance final e fechado, conforme o critério de julgamento adotado no edital.
+                    </p>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
