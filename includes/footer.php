@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col">
                 <p class="text-center text-light my-2">Desenvolvido por Weslley Rocha </a> &#174;
-                    <?php echo "2021 - " . date("Y", time()); ?>
+                    <?php echo date("Y", time()); ?>
                 </p>
             </div>
         </div>
