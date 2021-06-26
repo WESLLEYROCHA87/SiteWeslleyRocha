@@ -1,15 +1,15 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
 
-<div class="container">
+<div class="container margemTop">
+
     <!--Conteudo-->
-    <div class="mt-5">
+    <div class="my-5">
         <h1 class="text-center font-weight-light my-5">Sobre</h1>
 
         <div class="my-5">
             <div class="row">
                 <div class="col">
-                    <img class="img-fluid mx-auto d-block rounded-circle shadow-lg grow" style="width: 20rem;"
-                        src="img/perfil/perfilWeslleyRocha.jpg" title="Foto Perfil">
+                    <img class="img-fluid mx-auto d-block rounded-circle shadow-lg grow" style="width: 20rem;" src="img/perfil/perfilWeslleyRocha.jpg" title="Foto Perfil">
                 </div>
             </div>
         </div>

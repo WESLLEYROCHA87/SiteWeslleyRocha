@@ -1,17 +1,33 @@
+/* Pagina Index*/
+.bg-fundo {
+  background-color: rgba(10, 10, 10, 0.5);
+}
+
+.fontCarousel {
+  font-size: 5rem;
+}
+
 /* Pagina Sobre */
-.pPerson{
-    font-size: 25px;
+.pPerson {
+  font-size: 25px;
 }
 
 /* Demais Configurações*/
+
+/*Margens Containers das Páginas*/
 /* Em todas as imagens do site */
-.grow:hover
-{
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
+/* Margem Top personalizada para a página Index */
+.margemTopIndex {
+  margin-top: 75px;
+}
 
-
-
+/* Margem Top personalizada para as demais páginas */
+.margemTop {
+  margin-top: 100px;
+}

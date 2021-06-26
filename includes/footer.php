@@ -2,8 +2,7 @@
 <div class="container-fluid shadow-lg mt-5 bg-dark">
     <div class="row">
         <div class="col-12">
-            <img class="img-fluid mx-auto d-block my-3" src="img/logo/logo_WR.png" style="width: 10rem;"
-                title="Logo Weslley Rocha">
+            <img class="img-fluid mx-auto d-block my-3" src="img/logo/logo_WR.png" style="width: 10rem;" title="Logo Weslley Rocha">
         </div>
     </div>
 
@@ -32,25 +31,25 @@
 
 <!-- Início Botão Whatssap Site -->
 <script type="text/javascript">
-(function() {
-    var options = {
-        whatsapp: "+55(19)974207424", // WhatsApp number
-        call_to_action: "Fale Conosco Agora!", // Call to action
-        position: "right", // Position may be 'right' or 'left'
-    };
-    var proto = document.location.protocol,
-        host = "whatshelp.io",
-        url = proto + "//static." + host;
-    var s = document.createElement('script');
-    s.type = 'text/javascript';
-    s.async = true;
-    s.src = url + '/widget-send-button/js/init.js';
-    s.onload = function() {
-        WhWidgetSendButton.init(host, proto, options);
-    };
-    var x = document.getElementsByTagName('script')[0];
-    x.parentNode.insertBefore(s, x);
-})();
+    (function() {
+        var options = {
+            whatsapp: "+55(19)974207424", // WhatsApp number
+            call_to_action: "Fale Conosco Agora!", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol,
+            host = "whatshelp.io",
+            url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function() {
+            WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
 </script>
 <!-- Final Botão Whatssap Site -->
 

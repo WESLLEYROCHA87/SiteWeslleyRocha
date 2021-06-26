@@ -1,8 +1,54 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
 
+<div class="margemTopIndex">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/carrousel/licitacaoPublica.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="bg-fundo">
+                        <h5 class="text-center font-weight-light fontCarousel">Licitação Pública</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/carrousel/webDesign.jpg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="bg-fundo">
+                        <h5 class="text-center font-weight-light fontCarousel">Criação de Sites</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/carrousel/webDeveloper.jpg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="bg-fundo">
+                        <h5 class="text-center font-weight-light fontCarousel">Desenvolvimento de Sistemas</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+</div>
+
 <div class="container">
     <div class="my-5">
-        <h1 class="text-center font-weight-light sublinhado">Licitação</h1>
+        <h1 class="text-center font-weight-light">Licitação</h1>
     </div>
     <div class="row">
         <div class="col-12 col-md-6 my-1">
@@ -33,8 +79,8 @@
     </div>
 
     <!-- Conteudo: Destaques -->
-    <div class="my-4">
-        <h1 class="font-weight-light">Destaques</h1>
+    <div class="my-5">
+        <h1 class="font-weight-light text-center">Destaques</h1>
     </div>
     <div class="row">
         <div class="col-12 col-md-4 my-1 ">
@@ -46,8 +92,7 @@
                         (Nº 14.133/2021) foi sancionada pelo presidente Jair Bolsonaro em 1º. de abril de 2021, com base
                         em projeto aprovado pelo Senado em dezembro de 2020, após a matéria tramitar por sete anos no
                         Congresso.</p>
-                    <a href="http://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2021/Lei/L14133.htm" target="d-blank"
-                        class="btn btn-primary text-light">Acesse a nova Lei</a>
+                    <a href="http://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2021/Lei/L14133.htm" target="d-blank" class="btn btn-primary text-light">Acesse a nova Lei</a>
                 </div>
             </div>
         </div>
@@ -59,10 +104,9 @@
                     <h5 class="card-title text-center text-light">Lei do Pregão</h5>
                     <p class="card-text text-justify text-light">O pregão é utilizado para efetuar a aquisição de
                         serviços e bens comuns de “qualquer que seja o valor estimado da contratação” em que as empresas
-                        dão seus lances em sessão pública, presencial ou eletrônica e é regido pela, LEI No 10.520,
+                        dão seus lances em sessão pública, presencial ou eletrônica e é regido pela, LEI de No 10.520,
                         DE 17 DE JULHO DE 2002.</p>
-                    <a href="http://www.planalto.gov.br/ccivil_03/leis/2002/l10520.htm" target="d-blank"
-                        class="btn btn-primary text-light">Acesse a Lei</a>
+                    <a href="http://www.planalto.gov.br/ccivil_03/leis/2002/l10520.htm" target="d-blank" class="btn btn-primary text-light">Acesse a Lei</a>
 
                 </div>
             </div>
@@ -88,8 +132,7 @@
     </div>
 
     <!-- Modal Modo de Disputa -->
-    <div class="modal fade" id="ModalMododeDisputa" tabindex="-1" role="dialog"
-        aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal fade" id="ModalMododeDisputa" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -103,9 +146,7 @@
                 <div class="modal-body">
                     <p class="card-text text-justify text-dark">
                         O modo de disputa <strong>aberto</strong> e <strong>fechado</strong> está regularizado no
-                        <strong>artigo 33, caput e em seus parágrafos primeiro ao sexto</strong>, do <a
-                            href="https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2019/Decreto/D10024.htm"
-                            target="d_blank">Decreto Lei 10.024/2019</a>.
+                        <strong>artigo 33, caput e em seus parágrafos primeiro ao sexto</strong>, do <a href="https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2019/Decreto/D10024.htm" target="d_blank">Decreto Lei 10.024/2019</a>.
                     </p>
 
                     <p class="card-text text-justify text-dark">

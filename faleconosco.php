@@ -1,25 +1,23 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
 
-<div class="container">
-
-
+<div class="container margemTop">
     <h1 class="text-center font-weight-light my-3">Fale Conosco</h1>
     <hr>
 
     <!-- Mensagem de envio ou erro de mensagem -->
     <?php if ($_SERVER['REQUEST_METHOD'] == 'POST') { ?>
-    <div class="alert alert-danger alert-dismissible fade show my-5" role="alert">
-        <?php echo 'Mensagem <strong>não pode ser enviada</strong>, favor entrar em contato através do' ?>
+        <div class="alert alert-danger alert-dismissible fade show my-5" role="alert">
+            <?php echo 'Mensagem <strong>não pode ser enviada</strong>, favor entrar em contato através do' ?>
 
 
-        <a href="https://api.whatsapp.com/send?phone=5519974207424" target="_blank">
-            <strong class="text-success">Whatsapp!</strong></a>
+            <a href="https://api.whatsapp.com/send?phone=5519974207424" target="_blank">
+                <strong class="text-success">Whatsapp!</strong></a>
 
 
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
     <?php } ?>
 
     <!-- Conteudo: Formulário -->
@@ -74,8 +72,7 @@
     <div class="row">
         <div class="col-12">
             <a href="https://api.whatsapp.com/send?phone=5519974207424" target="_blank">
-                <img img class="img-fluid mx-auto d-block my-3 grow" src=" img/logo/logo-whatsapp.png" alt=""
-                    style="width: 10rem;"></a>
+                <img img class="img-fluid mx-auto d-block my-3 grow" src=" img/logo/logo-whatsapp.png" alt="" style="width: 10rem;"></a>
         </div>
     </div>
 </div>

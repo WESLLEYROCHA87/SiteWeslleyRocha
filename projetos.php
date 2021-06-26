@@ -1,6 +1,6 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
 
-<div class="container">
+<div class="container margemTop">
 
     <div class="my-5">
         <h1 class="text-center font-weight-light">Projetos Desenvolvidos</h1>
@@ -15,8 +15,7 @@
                     <h5 class="card-title text-center text-light">Site</h5>
                     <p class="card-text text-justify text-light"> A proposta foi a criação de um site para apresentação
                         dos serviços prestados pela empresa. </p>
-                    <a href="http://www.coziind.com.br/index.php" target="d-blank"
-                        class="btn btn-primary text-light">Acesse o site</a>
+                    <a href="http://www.coziind.com.br/index.php" target="d-blank" class="btn btn-primary text-light">Acesse o site</a>
                 </div>
             </div>
         </div>
