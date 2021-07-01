@@ -17,19 +17,15 @@
     <!-- Favicons -->
     <link rel="shortcut icon" href="img/favicons/favicon-32x32.png">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-200322587-1">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-21B5FH03V7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-200322587-1');
-    </script>
+  gtag('config', 'G-21B5FH03V7');
+</script>
 
     <title>Weslley Rocha</title>
 

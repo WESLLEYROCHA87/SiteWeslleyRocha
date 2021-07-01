@@ -1,5 +1,6 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
 
+<!-- Carousel -->
 <div class="margemTopIndex">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -46,6 +47,7 @@
     </div>
 </div>
 
+<!-- Conteudo Licitação -->
 <div class="container">
     <div class="my-5">
         <h1 class="text-center font-weight-light">Licitação</h1>
@@ -72,7 +74,6 @@
                     <p class="card-text text-justify text-light">O primeiro passo para participar de uma licitação é
                         acessar o edital. Quando esse documento é publicado, o processo licitatório está oficialmente
                         aberto.</p>
-
                 </div>
             </div>
         </div>
@@ -96,7 +97,6 @@
                 </div>
             </div>
         </div>
-
         <div class="col-12 col-md-4 my-1">
             <div class="card shadow mb-5 bg-white grow">
                 <img class="card-img-top rounded-top " src="img/imgHome/imgPE4.png" alt="Imagem de capa do card">
@@ -107,11 +107,9 @@
                         dão seus lances em sessão pública, presencial ou eletrônica e é regido pela, LEI de No 10.520,
                         DE 17 DE JULHO DE 2002.</p>
                     <a href="http://www.planalto.gov.br/ccivil_03/leis/2002/l10520.htm" target="d-blank" class="btn btn-primary text-light">Acesse a Lei</a>
-
                 </div>
             </div>
         </div>
-
         <div class="col-12 col-md-4 my-1">
             <div class="card shadow mb-5 bg-white grow">
                 <img class="card-img-top rounded-top " src="img/imgHome/imgPE5.png" alt="Imagem de capa do card">
@@ -131,7 +129,7 @@
         </div>
     </div>
 
-    <!-- Modal Modo de Disputa -->
+    <!-- Modal: Iten pertencente ao: Modo de Destaque -->
     <div class="modal fade" id="ModalMododeDisputa" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -148,12 +146,10 @@
                         O modo de disputa <strong>aberto</strong> e <strong>fechado</strong> está regularizado no
                         <strong>artigo 33, caput e em seus parágrafos primeiro ao sexto</strong>, do <a href="https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2019/Decreto/D10024.htm" target="d_blank">Decreto Lei 10.024/2019</a>.
                     </p>
-
                     <p class="card-text text-justify text-dark">
                         Neste modo, os licitantes apresentam lances públicos e sucessivos,
                         com lance final e fechado, conforme o critério de julgamento adotado no edital.
                     </p>
-
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -161,6 +157,23 @@
             </div>
         </div>
     </div>
+
+    <!-- Conteudo: Projetos em Destaques -->
+    <div class="my-5">
+        <h1 class="font-weight-light text-center">Projetos em Destaque</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-4 mx-auto d-block">
+            <div class="card shadow mb-5 bg-white grow">
+                <a href="projetos.php" target="d-blank">
+                    <img class="card-img-top rounded-top" src="img/projetos/projeto1.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
